@@ -1,0 +1,27 @@
+<resources>
+
+    <declare-styleable name="Fp_ShadowLayout">
+        <attr name="fp_shadowColor" format="color"/>
+        <attr name="fp_shadowRadius" format="dimension"/>
+        <attr name="fp_shadowRoundRadius" format="dimension"/>
+        <attr name="fp_shadowShape">
+            <flag name="fp_rectangle" value="0x0001"/>
+            <flag name="fp_round_rectangle" value="0x0100"/>
+        </attr>
+        <attr name="fp_shadowSide">
+            <flag name="fp_all" value="0x1111"/>
+            <flag name="fp_left" value="0x0001"/>
+            <flag name="fp_top" value="0x0010"/>
+            <flag name="fp_right" value="0x0100"/>
+            <flag name="fp_bottom" value="0x1000"/>
+        </attr>
+        <attr name="fp_round_corner">
+            <flag name="fp_corner_all" value="0x1111"/>
+            <flag name="fp_corner_leftTop" value="0x0001"/>
+            <flag name="fp_corner_leftBottom" value="0x0010"/>
+            <flag name="fp_corner_rightTop" value="0x0100"/>
+            <flag name="fp_corner_rightBottom" value="0x1000"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
