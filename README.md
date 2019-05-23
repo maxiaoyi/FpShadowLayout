@@ -2,7 +2,9 @@
 自定义viewGroup，给view加上阴影效果。支持单边阴影，多边阴影，圆角矩形阴影。
 用法：implementation 'com.mxy.fpshadowlayout:fpshadowlayout:0.0.1'
 矩形用法：
- <com.mxy.fpshadowlayout.FpShadowLayout
+
+
+        <com.mxy.fpshadowlayout.FpShadowLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fp_shadowColor="#FF00FF"
@@ -18,8 +20,10 @@
                 ></RelativeLayout>
 
         </com.mxy.fpshadowlayout.FpShadowLayout>
+ 
  圆角矩形用法：
- <com.mxy.fpshadowlayout.FpShadowLayout
+
+         <com.mxy.fpshadowlayout.FpShadowLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
             app:fp_shadowColor="#800080"
