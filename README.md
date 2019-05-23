@@ -1,5 +1,6 @@
 # FpShadowLayout
 ## 自定义viewGroup，给view加上阴影效果。支持单边阴影，多边阴影，圆角矩形阴影。
+## ![](https://github.com/maxiaoyi/FpShadowLayout/raw/master/demo.png)
 ## 用法：implementation 'com.mxy.fpshadowlayout:fpshadowlayout:0.0.1'
 矩形用法：
 
