@@ -42,3 +42,4 @@
 
         </com.mxy.fpshadowlayout.FpShadowLayout>
  需要指出的是设置圆角矩形时，只需要写阴影所在的边的圆角情况，如：阴影在上边和左边，只需要说明左上角、右上角和左下角，如果左上角和右上角是圆角，左下角是直角时这样写，app:fp_round_corner="fp_corner_leftTop|fp_corner_rightTop"
+ 实现原理请移步：https://blog.csdn.net/u012155141/article/details/90477443
